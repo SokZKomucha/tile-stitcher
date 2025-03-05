@@ -1,0 +1,13 @@
+{
+  "name": "tile-stitcher",
+  "packageManager": "yarn@4.5.2",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "yarn tsc"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.5",
+    "canvas": "^3.1.0",
+    "typescript": "^5.7.3"
+  }
+}
