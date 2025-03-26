@@ -3,7 +3,7 @@
 Quick little script to stitch together OSM tiles. Forms an `NxN` square, with a set center point. <br>
 Not tested with anything other than OSM tiles and tilesize of 256px. There's no guarantee it'll work on your machine, due to, for example, internet connection speed constraints. Has absolutely no error handling, so be prepared for any issues that may arise.
 
-Be aware of [tile usage policy](https://operations.osmfoundation.org/policies/tiles/) when stitching tiles. You may easily encounter rate limits, so beware of that. 
+Be aware of [tile usage policy](https://operations.osmfoundation.org/policies/tiles/) when stitching tiles. You may easily encounter rate limits, so beware of that. A better option may be to create your own tile server, just for the purpose of stitching.
 
 ## Running
 
